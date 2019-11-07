@@ -1,4 +1,4 @@
-# Setting all variables
+# Setting all variables.
 
 sounddevice="iec958:CARD=System,DEV=0"                                                  # The address of your soundcard
 medialocation="/home/doorbell/media"                                                    # The root of your media
