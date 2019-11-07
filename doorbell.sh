@@ -18,36 +18,43 @@ if [ $currentmonth -eq 01 ]; then
   fi
 
 elif [ $currentmonth -eq 02 ]; then
+#  if [ $currentday -eq 01 ]; then
+#  fi
   isthisaspecialdate=$nodate
 
 elif [ $currentmonth -eq 03 ]; then
   if [ $currentday -eq 11 ]; then
     currentbell="$birthday/$(ls $birthday | shuf -n 1)"
-    isthisaspecialdate="It's Naomi's Birthday!"
+    isthisaspecialdate="It's Jane Doe's Birthday!"
   fi
 
 elif [ $currentmonth -eq 04 ]; then
   isthisaspecialdate=$nodate
 
 elif [ $currentmonth -eq 05 ]; then
-  if [ $currentday -eq 09 ]; then
-    currentbell="$birthday/$(ls $birthday | shuf -n 1)"
-    isthisaspecialdate="It's Anita's Birthday!"
-  fi
+#  if [ $currentday -eq 01 ]; then
+#  fi
+  isthisaspecialdate=$nodate
 
 elif [ $currentmonth -eq 06 ]; then
-  if [ $currentday -eq 29 ]; then
+  if [ $currentday -eq 01 ]; then
     currentbell="$birthday/$(ls $birthday | shuf -n 1)"
-    isthisaspecialdate="It's Theo's Birthday!"
+    isthisaspecialdate="It's John Doe's Birthday!"
   fi
 
 elif [ $currentmonth -eq 07 ]; then
+#  if [ $currentday -eq 01 ]; then
+#  fi
   isthisaspecialdate=$nodate
 
 elif [ $currentmonth -eq 08 ]; then
+#  if [ $currentday -eq 01 ]; then
+#  fi
   isthisaspecialdate=$nodate
 
 elif [ $currentmonth -eq 09 ]; then
+#  if [ $currentday -eq 01 ]; then
+#  fi
   isthisaspecialdate=$nodate
 
 elif [ $currentmonth -eq 10 ]; then
@@ -57,10 +64,13 @@ elif [ $currentmonth -eq 10 ]; then
   fi
 
 elif [ $currentday -eq 01 ]; then
-  currentbell="$birthday/$(ls $birthday | shuf -n 1)"
-  isthisaspecialdate="It's Elissa's Birthday!"
+#  if [ $currentday -eq 01 ]; then
+#  fi
+  isthisaspecialdate=$nodate
 
 elif [ $currentmonth -eq 11 ]; then
+#  if [ $currentday -eq 01 ]; then
+#  fi
   isthisaspecialdate=$nodate
 
 elif [ $currentmonth -eq 12 ]; then
