@@ -2,9 +2,9 @@
 
 sounddevice="iec958:CARD=System,DEV=0"          # The address of your soundcard
 medialocation="/home/doorbell/media"            # The root of your media
-regular="/home/doorbell/media/regular"
-seasonal="/home/doorbell/media/seasonal"
-birthday="/home/doorbell/media/birthday"
+regular="$medialocation/regular"
+seasonal="$medialocation/seasonal"
+birthday="$medialocation/birthday"
 nodate="No special date today..."
 
 # only change underneath if you know what you are doing!
@@ -12,8 +12,7 @@ nodate="No special date today..."
 currentmonth="$(date +%m)"
 currentday="$(date +%d)"
 #currentbell="$regular/$(ls $regular | shuf -n 1)"
-#currentbell="$medialocation/doorbell.wav"
-currentbell="$medialocation/beep.wav"
+currentbell="$medialocation/test/beep.wav"
 isthisaspecialdate=$nodate
 
 if [ $currentmonth -eq 01 ]; then
