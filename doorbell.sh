@@ -6,8 +6,6 @@ regular="/home/doorbell/media/regular"
 seasonal="/home/doorbell/media/seasonal"
 birthday="/home/doorbell/media/birthday"
 currentbell="$regular/$(ls $regular | shuf -n 1)"
-#currentbell="$medialocation/doorbell.wav"
-#currentbell="$medialocation/beep.wav"
 nodate="No special date today..."
 isthisaspecialdate=$nodate
 
