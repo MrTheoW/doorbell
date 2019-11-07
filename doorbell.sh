@@ -1,6 +1,7 @@
 currentmonth="$(date +%m)"
 currentday="$(date +%d)"
 
+sounddevice="iec958:CARD=System,DEV=0"
 medialocation="/home/doorbell/media"
 regular="/home/doorbell/media/regular"
 seasonal="/home/doorbell/media/seasonal"
@@ -81,4 +82,4 @@ elif [ $currentmonth -eq 12 ]; then
 fi
 
 echo $isthisaspecialdate
-aplay --device iec958:CARD=System,DEV=0 $currentbell
+aplay --device $sounddevice $currentbell
