@@ -1,0 +1,2 @@
+date '+%A %d-%m-%Y at %H:%M:%S' >> pastrings.log
+\time -o pastrings.log -a -f "\nProgram: %C\nTotal time: %E\nUser Mode (s) %U\nKernel Mode (s) %S\nCPU: %P\n--------------------------------------------" ./doorbell.sh
