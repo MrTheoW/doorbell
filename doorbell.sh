@@ -11,8 +11,8 @@ nodate="No special date today..."                                               
 
 currentmonth="$(date +%m)"                                                              # Fetches the current month
 currentday="$(date +%d)"                                                                # Fetches the current day
-currentbell="$regular/$(ls $regular | shuf -n 1)"                                       # Sets the default doorbell by shuffeling the wav files in the regular folder
-#currentbell="$medialocation/test/beep.wav"                                             # Used for testing, Short beep sound that doesn't wake everyone in the house
+#currentbell="$regular/$(ls $regular | shuf -n 1)"                                      # Sets the default doorbell by shuffeling the wav files in the regular folder
+currentbell="$medialocation/test/beep-beep.wav"                                         # Used for testing, Short beep sound that doesn't wake everyone in the house
 
 if [ $currentmonth -eq 01 ]; then                                                       # Checks the month
   if [ $currentday -gt 00 -a $currentday -lt 11 ]; then                                 # Checks the day range
