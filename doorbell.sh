@@ -5,7 +5,6 @@ medialocation="/home/doorbell/media"                                            
 regular="$medialocation/regular"                                                        # The root of your regular doorbell tones
 seasonal="$medialocation/seasonal"                                                      # The root of your seasonal doorbell tones (with subfolder for christmass / halloween)
 birthday="$medialocation/birthday"                                                      # The root of your birthday doorbell tones
-valentine="$medialocation/valentine"                                                    # The root of your valentine doorbell tones
 nodate="No special date today..."                                                       # The default message (Actually doesn't do shit)
 
 # only change underneath if you know what you are doing!
