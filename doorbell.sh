@@ -48,7 +48,7 @@ elif [ $currentmonth -eq 10 ]; then
 
 
 elif [ $currentmonth -eq 12 ]; then
-  if [ $currentday -gt 24 -a $currentday -lt 31 ]; then
+  if [ $currentday -gt 05 -a $currentday -lt 31 ]; then
     currentbell="$seasonal/christmas/$(ls $seasonal/christmas | shuf -n 1)"
   fi
 
